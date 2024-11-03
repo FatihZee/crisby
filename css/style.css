@@ -1059,7 +1059,7 @@ textarea#comment.massage-bt::placeholder {
 .parallax-bg-yellow-to-white {
   background: linear-gradient(
     to bottom,
-    rgba(255, 225, 53, 0.9),
+    rgba(255, 225, 53, 1),
     rgba(255, 255, 255, 0.9)
   );
   height: 100vh; /* Mengatur tinggi bagian kategori */
