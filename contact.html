@@ -161,10 +161,10 @@
              const formattedPhone = "62" + phone.slice(1);
          
              // Buat pesan yang akan dikirim ke WhatsApp
-             const whatsappMessage = `Hai, saya ${name}. ${message}`;
+             const whatsappMessage = `Hai, saya ${name}, dengan nomor ${phone}. ${message}`;
          
              // Rangkai URL WhatsApp dengan nomor dan pesan
-             const whatsappUrl = `https://wa.me/${formattedPhone}?text=${encodeURIComponent(whatsappMessage)}`;
+             const whatsappUrl = `https://wa.me/6285713309551?text=${encodeURIComponent(whatsappMessage)}`;
          
              // Buka URL WhatsApp di tab baru
              window.open(whatsappUrl, "_blank");
