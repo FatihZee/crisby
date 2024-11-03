@@ -662,18 +662,18 @@ figure:hover + span {
   font-size: 18px;
   color: #fefefd;
   text-align: center;
-  background-color: #2c2b2b;
+  background-color: #9acd32;
   padding: 10px;
 }
 
 .date_text a:hover {
   color: #fefefd;
-  background-color: #de6624;
+  background-color: #2c2b2b;
 }
 
 .date_text.active a {
   color: #fefefd;
-  background-color: #de6624;
+  background-color: #2c2b2b;
 }
 
 /* blog section end */
@@ -763,7 +763,7 @@ figure:hover + span {
   width: 100%;
   float: left;
   font-size: 22px;
-  color: #de6624;
+  color: #9acd32;
   text-transform: uppercase;
 }
 
@@ -796,7 +796,7 @@ figure:hover + span {
   opacity: 1;
   font-size: 18px;
   color: #ffffff;
-  background-color: #de6624;
+  background-color: #9acd32;
   border-radius: 100%;
   margin: 0 auto;
   text-align: center;
@@ -961,7 +961,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .location_text li a:hover {
-  color: #de6624;
+  color: #9acd32;
 }
 
 .padding_left_10 {
@@ -1002,7 +1002,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .footer_social_icon li a:hover {
-  background-color: #de6624;
+  background-color: #9acd32;
   color: #ffffff;
 }
 
@@ -1031,7 +1031,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .copyright_text a:hover {
-  color: #de6624;
+  color: #9acd32;
 }
 
 /* copyright section end */

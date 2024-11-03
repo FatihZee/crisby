@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-   <head>
+   <link>
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,11 @@
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-   </head>
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+    />
+   </link>
    <body>
       <div class="header_section fixed-top">
          <div class="container">
@@ -65,7 +69,11 @@
       </div>
       <!-- header section end -->
       <!-- contact section start -->
-      <div class="contact_section layout_padding">
+      <div
+      class="contact_section layout_padding full-screen-section"
+      data-aos="fade-up"
+      data-aos-delay="0"
+    >
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -169,6 +177,13 @@
              // Buka URL WhatsApp di tab baru
              window.open(whatsappUrl, "_blank");
          }
+         </script>
+         <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+         <script>
+            AOS.init({
+            duration: 1000, // durasi animasi dalam milidetik
+            once: true, // animasi akan berjalan sekali saja saat pertama kali scroll
+            });
          </script>
    </body>
 </html>
