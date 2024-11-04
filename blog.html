@@ -33,6 +33,7 @@
     />
    </link>
    <body>
+      <div class="cursor"></div>
       <div class="header_section fixed-top">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -179,5 +180,19 @@
          once: true, // animasi akan berjalan sekali saja saat pertama kali scroll
          });
       </script>
+      <script>
+         const cursor = document.querySelector(".cursor");
+   
+         document.addEventListener("mousemove", (e) => {
+           // Update posisi elemen cursor secara halus
+           cursor.style.opacity = 1; // Tampilkan kursor saat mouse bergerak
+           cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+         });
+   
+         // Sembunyikan kursor jika tidak ada gerakan mouse setelah beberapa detik
+         document.addEventListener("mouseleave", () => {
+           cursor.style.opacity = 0;
+         });
+       </script>
    </body>
 </html>

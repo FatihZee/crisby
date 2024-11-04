@@ -517,11 +517,11 @@ figure:hover + span {
 }
 
 .market_text:hover {
-  color: #de6624;
+  color: #9acd32;
 }
 
 .market_text.active {
-  color: #de6624;
+  color: #9acd32;
 }
 
 .padding10 {
@@ -1067,4 +1067,23 @@ textarea#comment.massage-bt::placeholder {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px; /* Perbesar ukuran */
+  height: 40px; /* Perbesar ukuran */
+  border-radius: 50%;
+  background: radial-gradient(circle, #FFD700 20%, #32CD32 80%); /* Gradasi radial dari kuning pisang ke hijau */
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.05s ease-out, opacity 0.2s ease; /* Tambahkan transisi untuk opacity */
+  opacity: 0; /* Mulai dalam kondisi tersembunyi */
+  
+  /* Tambahkan efek bayangan */
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.6), /* Bayangan kuning lebih besar */
+              0 0 40px rgba(50, 205, 50, 0.5); /* Bayangan hijau lebih besar */
 }
