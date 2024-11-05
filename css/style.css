@@ -1087,3 +1087,18 @@ textarea#comment.massage-bt::placeholder {
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.6), /* Bayangan kuning lebih besar */
               0 0 40px rgba(50, 205, 50, 0.5); /* Bayangan hijau lebih besar */
 }
+
+.crisby-font {
+  font-family: 'Lobster', cursive; /* Contoh font unik */
+  color: #9acd32; /* Warna font */
+  font-size: 1.2em; /* Ukuran font lebih besar */
+}
+
+.crisby-font2 {
+  font-family: 'Lobster', cursive; /* Contoh font unik */
+  color: #9acd32; /* Warna font */
+  font-size: 1em; /* Ukuran font lebih besar */
+}
+
+/* Pastikan untuk menyertakan font Lobster dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
